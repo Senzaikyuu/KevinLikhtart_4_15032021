@@ -25,6 +25,26 @@ a
     font-weight: 400;
 }
 
+ul 
+{
+    list-style-type: none;
+}
+
+ul li.foot:before
+{
+    content: "\2022";
+    color: #000000;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+li
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -369,6 +389,14 @@ a
     z-index: 2;
 }
 
+.footmenu
+{
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -657,7 +685,7 @@ label,
 .btn {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -745,6 +773,7 @@ h4 {
     color: #FFFFFF!important;
     font-size: 14px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .portfolio-thumb {
