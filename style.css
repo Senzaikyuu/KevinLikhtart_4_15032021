@@ -135,7 +135,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -489,6 +488,7 @@ button {
 
 .icon-md {
     font-size: 20px!important;
+    color: #000000;
 }
 
 .icon-lg {
