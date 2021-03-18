@@ -6,6 +6,18 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+#Ajout
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.Ajout
+{
+    font-size: 22px;
+    width: 50%;
+}
 
 a,
 button {
