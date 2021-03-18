@@ -18,6 +18,13 @@ a:hover {
     cursor: pointer;
 }
 
+a
+{
+    color: #000000;
+    font-family: "helvetica";
+    font-weight: 400;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -647,8 +654,7 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -737,6 +743,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 14px;
 }
 
 .portfolio-thumb {
