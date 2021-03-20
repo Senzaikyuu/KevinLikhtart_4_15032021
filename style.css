@@ -6,6 +6,18 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+#Ajout
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.Ajout
+{
+    font-size: 22px;
+    width: 50%;
+}
 
 a,
 button {
@@ -123,7 +135,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -476,7 +487,8 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 20px!important;
+    color: #000000;
 }
 
 .icon-lg {
@@ -645,7 +657,6 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
@@ -736,7 +747,12 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
+}
+
+.black
+{
+    color: #000000;
 }
 
 .portfolio-thumb {
