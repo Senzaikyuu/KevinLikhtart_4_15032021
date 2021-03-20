@@ -31,6 +31,16 @@ body {
     width: 50%;
 }
 
+.text-center
+{
+    font-size: 12px;
+}
+
+.txtmain
+{
+    font-size: 25px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
