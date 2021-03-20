@@ -9,13 +9,25 @@ body {
 #Ajout
 {
     display: flex;
-    justify-content: center;
+    align-items: center;
     margin-bottom: 30px;
+    flex-direction: column;
 }
 
 .Ajout
 {
-    font-size: 22px;
+    font-size: 20px;
+    width: 50%;
+}
+
+.italic
+{
+    font-style: italic;
+}
+
+.Plus
+{
+    font-size: 12px;
     width: 50%;
 }
 
