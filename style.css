@@ -6,6 +6,40 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.Ajout
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+.Ajout2
+{
+    font-size: 20px;
+    width: 50%;
+}
+
+.italic
+{
+    font-style: italic;
+}
+
+.Plus
+{
+    font-size: 12px;
+    width: 50%;
+}
+
+.text-center
+{
+    font-size: 12px;
+}
+
+.txtmain
+{
+    font-size: 25px;
+}
 
 a,
 button {
@@ -123,7 +157,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -476,7 +509,8 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 20px!important;
+    color: #000000;
 }
 
 .icon-lg {
@@ -645,7 +679,6 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
@@ -736,7 +769,12 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
+}
+
+.black
+{
+    color: #000000;
 }
 
 .portfolio-thumb {
