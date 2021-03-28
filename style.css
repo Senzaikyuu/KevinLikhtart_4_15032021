@@ -6,7 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-#Ajout
+.Ajout
 {
     display: flex;
     align-items: center;
@@ -14,7 +14,7 @@ body {
     flex-direction: column;
 }
 
-.Ajout
+.Ajout2
 {
     font-size: 20px;
     width: 50%;
